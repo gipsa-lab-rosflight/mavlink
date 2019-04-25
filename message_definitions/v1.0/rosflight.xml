@@ -278,5 +278,9 @@
 		<field type="uint16_t" name="p_dop"/> <!-- *.01 -->
 		<field type="uint64_t" name="rosflight_timestamp"/> <!-- microseconds -->
 	</message>
+  <message id="201" name="SMALL_BATTERY">
+    <field type="float" name="voltage"/> <!-- voltage in volt -->
+    <field type="float" name="percent"/> <!-- percent, between 0 and 1 -->
+  </message>
     </messages>
 </mavlink>
