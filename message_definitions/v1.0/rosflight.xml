@@ -282,5 +282,10 @@
     <field type="float" name="voltage"/> <!-- voltage in volt -->
     <field type="float" name="percent"/> <!-- percent, between 0 and 1 -->
   </message>
+  <message id="202" name="ROSFLIGHT_MULTI_RANGE">
+    <field type="uint8_t" name="nb_ranges"/> <!-- number of range measurements -->
+    <field type="uint16_t[16]" name="ranges"/> <!-- ranges measurement, in mm -->
+  </message>
+
     </messages>
 </mavlink>
